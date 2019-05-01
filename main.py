@@ -5,7 +5,7 @@ import pymel.core as pm
 
 def run():
     path_env = 'CWT_TEMP_ROOT_PATH'
-    packet_path = 'C:/Users/jon/Documents/packet'
+    packet_path = ''
     os.environ[path_env] = packet_path
     path_env = '$' + path_env
     if not os.path.isdir(packet_path):
